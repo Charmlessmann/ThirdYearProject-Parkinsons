@@ -1,4 +1,5 @@
-# 3yp_parkinson
+# ThirdYearProject 
+## Predicting Parkinson's Disease Bradykinesia Using Low-quality Smartphone Videos
 
 ## Tensorflow dependencies:
 * OS Ubuntu 18.04
