@@ -1,0 +1,11 @@
+ffmpeg -i $1 -r 60 -f image2 $2
+
+# This is the script for transfer video into a sequence of frames - using ffmpeg 
+# $1 is the input video 
+# $2 is the output frames from the video
+# example 
+# ffmpeg -i P23_L_10s.mp4 -r 60 -f image2 /home/ciciliu/3yp_parkinson/video\&frames/frames/PATIENTS/23/L/hand-%05d.jpg
+
+# dependency:
+# ffmpeg version 3.4.8-0ubuntu0.2
+# Ubuntu 18.04
